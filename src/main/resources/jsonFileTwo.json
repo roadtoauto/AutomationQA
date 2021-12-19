@@ -1,0 +1,67 @@
+{
+  "id": 34,
+  "name": "Alexander",
+  "dateOfBirthday": "2021-11-03T01:38:27.933467200",
+  "salary": 14400,
+  "priceInHour": 44,
+  "administrative": {
+    "stamp": "ADMINISTRATIVE STAMP"
+  },
+  "ProjectDep": {
+    "workplace": "MSK",
+    "constructionProjectsDep": [
+      {
+        "solutionDoc": "Arch sol 5",
+        "designers": [
+          {
+            "Solutions": "HIGHPRICE"
+          },
+          {
+            "Solutions": "LOWPRICE"
+          }
+        ],
+        "architect": [
+          {
+            "solutions": "WOOD"
+          },
+          {
+            "solutions": "STONE"
+          }
+        ]
+      }
+    ],
+    "objectsDep": [
+      {
+        "techPlanDoc": "Tech plan 5",
+        "foremans": [
+          {
+            "closedObj": true
+          },
+          {
+            "closedObj": false
+          }
+        ],
+        "workers": [
+          {
+            "group": "A"
+          },
+          {
+            "group": "B"
+          },
+          {
+            "group": "C"
+          }
+        ]
+      }
+    ]
+  },
+  "financialDep": {
+    "financialPlan": "Reports: 6,9",
+    "transportService": {
+      "expenses": 50000
+    },
+    "reportsDep": {
+      "profit": 100500
+    }
+  }
+}
